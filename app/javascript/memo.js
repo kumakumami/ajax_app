@@ -13,6 +13,7 @@ const buildHTML = (XHR) => {
 };
 
 
+
 function post (){
   const submit = document.getElementById("submit");
   submit.addEventListener("click",(e) =>{  
@@ -37,3 +38,4 @@ XHR.onload = () => {
 });
 };
 window.addEventListener('load', post);
+
